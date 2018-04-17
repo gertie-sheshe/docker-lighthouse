@@ -39,11 +39,9 @@ RUN curl -fSLO --compressed "https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$
   && rm yarn-v$YARN_VERSION.tar.gz
 
 RUN mkdir /app
-COPY package.json /app
-COPY config.json /app
 WORKDIR /app
 ENV TERM=xterm
 
-RUN cd /app; npm install -q
+RUN cd /app; npm install -g lighthouse
 
 CMD ["npm", "run", "start"]

@@ -1,0 +1,22 @@
+{
+  "name": "docker-lighthouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gertie-sheshe/docker-lighthouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gertie-sheshe/docker-lighthouse/issues"
+  },
+  "homepage": "https://github.com/gertie-sheshe/docker-lighthouse#readme",
+  "dependencies": {
+    "lighthouse": "^2.9.4"
+  }
+}
